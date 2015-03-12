@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "058a4aef065614624b59f35e31477082",
+    "hash": "5258f0f7e2416ada89a9b670d7b9b5c0",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1877,6 +1877,45 @@
     ],
     "packages-dev": [
         {
+            "name": "krystalcode/issue-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krystalcode/issue-manager.git",
+                "reference": "b19559489f805d7f2fdd67c3cac878299140d789"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krystalcode/issue-manager/zipball/b19559489f805d7f2fdd67c3cac878299140d789",
+                "reference": "b19559489f805d7f2fdd67c3cac878299140d789",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "^2.4.2",
+                "php": ">=5.3.3",
+                "symfony/console": "^2.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KrystalCode\\IssueManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dimitris Bozelos",
+                    "email": "dbozelos@gmail.com"
+                }
+            ],
+            "description": "An annotation-based in-code issue manager for PHP applications.",
+            "homepage": "https://github.com/krystalcode/issue-manager",
+            "time": "2015-03-11 22:35:49"
+        },
+        {
             "name": "sensio/generator-bundle",
             "version": "v2.5.2",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
@@ -1929,7 +1968,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "doctrine/mongodb-odm": 10,
-        "doctrine/mongodb-odm-bundle": 10
+        "doctrine/mongodb-odm-bundle": 10,
+        "krystalcode/issue-manager": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
