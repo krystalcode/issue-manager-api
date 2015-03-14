@@ -1,0 +1,3 @@
+issue_manager_issue_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: IssueManagerIssueBundle:Default:index }
