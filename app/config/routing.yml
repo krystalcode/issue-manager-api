@@ -1,3 +1,7 @@
+issue_manager_api:
+    resource: "@IssueManagerApiBundle/Resources/config/routing.yml"
+    prefix:   /api/
+
 issue_manager_issue:
     resource: "@IssueManagerIssueBundle/Resources/config/routing.yml"
     prefix:   /

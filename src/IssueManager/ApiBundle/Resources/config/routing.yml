@@ -1,0 +1,3 @@
+issue_manager_api_issues:
+    type:     rest
+    resource: IssueManager\ApiBundle\Controller\IssuesController
