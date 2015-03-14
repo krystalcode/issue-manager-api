@@ -1,0 +1,6 @@
+IssueManager\IssueBundle\Document\Project:
+  fields:
+    id:
+      id: true
+    title:
+      type: string

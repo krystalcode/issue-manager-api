@@ -1,0 +1,18 @@
+IssueManager\IssueBundle\Document\Issue:
+  fields:
+    id:
+      id: true
+    project:
+      type: string
+    commit:
+      type: string
+    title:
+      type: string
+    description:
+      type: string
+    type:
+      type: string
+    priority:
+      type: string
+    labels:
+      type: collection
