@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Nelmio\CorsBundle\NelmioCorsBundle(),
             new IssueManager\IssueBundle\IssueManagerIssueBundle(),
             new IssueManager\ApiBundle\IssueManagerApiBundle(),
         );
